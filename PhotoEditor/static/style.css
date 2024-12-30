@@ -1,0 +1,20 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Khoảng cách giữa các hình ảnh */
+    margin-top: 20px;
+}
+
+.image-block {
+    text-align: center;
+}
+
+.image-block img {
+    max-width: 400px; /* Kích thước tối đa của hình ảnh (có thể chỉnh sửa theo nhu cầu) */
+    max-height: 300px; /* Chiều cao tối đa của hình ảnh */
+    width: auto; /* Đảm bảo tỷ lệ ảnh không bị méo */
+    height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
